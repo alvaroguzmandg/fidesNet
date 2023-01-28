@@ -1,0 +1,119 @@
+.textosServicios{
+  margin-top: 20px;
+  font-size: 16px;
+  line-height: 30px;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+  @media screen and (max-width:700px) {
+    width: 90%;
+  }
+}
+
+.bloqueIndustrias{
+  margin-bottom: 50px;
+  .contenedorIndustrias{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap:20px;
+    @media screen and (max-width:700px){
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  .contenedorIndustrias-bloque{
+    display: block;
+    background-color: $backGris;
+    border-top:5px solid $fidesRed;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    letter-spacing: 1px;
+    gap:20px; 
+    padding-top:40px;
+    padding-bottom: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    color:$fidesText
+  }
+}
+
+.bloqueServicios{
+  margin-top:80px;
+  margin-bottom: 80px;
+}
+
+.accordion-item{
+  border:0;
+}
+
+.accordion-item{
+  margin-bottom: 20px;
+}
+
+.accordion-button::after{
+  background-image: url(/images/ic-collapse.png);
+  background-size: 50% 50%;
+    background-position: center;
+}
+.accordion-button:not(.collapsed)::after{
+  background-image: url(/images/ic-collapsed.png);
+  background-size: 50% 50%;
+    background-position: center;
+}
+
+
+.accordion-flush .accordion-item .accordion-button.collapsed{
+  background-color: $backGris;
+  border-left:4px solid $fidesRed;
+  margin-bottom: 20px;
+}
+.accordion-button{
+  box-shadow: 0!important;
+  letter-spacing: 2px;
+  font-size: 16px;
+}
+.accordion-button:focus{
+  border-color:$fidesRed!important;
+  box-shadow: 0;
+  box-shadow: 0 0 0 0 rgba(1, 1, 1, 0);
+  background-color: $fidesRed;
+}
+.accordion-button:not(.collapsed){
+  color:white;
+  background-color: $fidesRed;
+}
+
+
+.texto-servicios{
+  text-align: left;
+  font-size: 12px;
+  line-height: 17px;
+  letter-spacing: 0.2px;
+}
+
+.servicios-bloqueTexto{
+  background-color: $backGris;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  box-sizing: border-box;
+  gap:30px;
+  @media screen and (max-width: 800px){
+    flex-direction: column;
+    gap:0px;
+  }
+  .servicios-col{
+    width: 45%;
+    @media screen and (max-width: 800px){
+      width: 100%;
+    }
+  }
+}
+.texto-servicios-titulo{
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: 700;
+  display: block;
+  
+}

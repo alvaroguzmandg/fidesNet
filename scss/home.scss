@@ -1,0 +1,131 @@
+section#accesoIndustrias{
+  margin-top: 50px;
+}
+.accesoIndustrias{
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  row-gap:20px;
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 10px;
+  margin-bottom: 50px;
+  @media screen and (max-width:700px) {
+    grid-template-columns: repeat(1, 1fr);
+    margin-top: 20px;
+  }
+  .accesoIndustrias--bloque{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 130px;
+    color:white;
+    letter-spacing: 1px;
+    font-style: italic;
+    font-size: 20px;
+  }
+  .accesoIndustrias--bloque_cont1,
+  .accesoIndustrias--bloque_cont2,
+  .accesoIndustrias--bloque_cont3,
+  .accesoIndustrias--bloque_cont4{
+    background-size:cover;
+    background-position: center;
+  }
+  .accesoIndustrias--bloque_cont1{
+      background-image: url(/images/backIndustrias-SF.png);
+    }
+    .accesoIndustrias--bloque_cont2{
+      background-image: url(/images/backIndustrias-BD.png);
+    }
+    .accesoIndustrias--bloque_cont3{
+      background-image: url(/images/backIndustrias-MC.png);
+    }
+    .accesoIndustrias--bloque_cont4{
+      background-image: url(/images/backIndustrias-ER.png);
+    }
+}
+
+
+.accesoServicios{
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  row-gap:20px;
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  margin-bottom: 50px;
+  @media screen and (max-width:700px) {
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 20px;
+  }
+  .accesoServicios--bloque{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 180px;
+    color:white;
+    letter-spacing: 1px;
+    font-size: 17px;
+    line-height: 20px;
+    font-weight: 500;
+    font-style:italic; 
+    @media screen and (max-width:700px) {
+      font-size: 14px;
+    }
+  }
+  .accesoServicios--bloque_cont1,
+  .accesoServicios--bloque_cont2,
+  .accesoServicios--bloque_cont3,
+  .accesoServicios--bloque_cont4,
+  .accesoServicios--bloque_cont5,
+  .accesoServicios--bloque_cont6{
+    background-size:100% 100%;
+    background-position: center;
+  }
+  .accesoServicios--bloque_cont1{
+      background-image: url(/images/backServicios-1.png);
+      @media screen and (max-width:700px){
+        background-image: url(/images/backServicios-1-mobile.png);
+      }
+    }
+    .accesoServicios--bloque_cont2{
+      background-image: url(/images/backServicios-2.png);
+            @media screen and (max-width:700px){
+        background-image: url(/images/backServicios-2-mobile.png);
+      }
+    }
+    .accesoServicios--bloque_cont3{
+      background-image: url(/images/backServicios-3.png);
+            @media screen and (max-width:700px){
+        background-image: url(/images/backServicios-3-mobile.png);
+      }
+    }
+    .accesoServicios--bloque_cont4{
+      background-image: url(/images/backServicios-4.png);
+            @media screen and (max-width:700px){
+        background-image: url(/images/backServicios-4-mobile.png);
+      }
+    }
+    .accesoServicios--bloque_cont5{
+      background-image: url(/images/backServicios-5.png);
+            @media screen and (max-width:700px){
+        background-image: url(/images/backServicios-5-mobile.png);
+      }
+    }
+    .accesoServicios--bloque_cont6{
+      background-image: url(/images/backServicios-6.png);
+            @media screen and (max-width:700px){
+        background-image: url(/images/backServicios-6-mobile.png);
+      }
+    }
+}
+
+
+// ACCESO NOTAS
+#publicacionesDestacadas{
+  padding-top: 80px;
+  padding-bottom: 80px;
+}

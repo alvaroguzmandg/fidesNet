@@ -1,0 +1,69 @@
+section#photoHeader{
+  text-align: center;
+  span{
+    min-height: 300px;
+    display: flex;
+    text-align: center;
+    align-items: flex-end;
+    justify-content: center;
+    background-size: cover;
+    background-position: center;
+    color:white;
+    padding-bottom: 20px;
+    p{
+      width: 100%;
+      font-size: 28px;
+      line-height: 35px;
+    }
+    @media screen and (max-width:900px) {
+      
+      p{
+        width: 90%;
+        font-size: 22px;
+        line-height: 35px;
+      }
+    }
+    @media screen and (max-width:700px) {
+      min-height: 400px;
+    }
+  }
+  
+  //ESTILOS CONTENIDO
+  .contenidoEncabezado{
+    margin-top: 70px;
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    @media screen and (max-width:700px) {
+      width: 90%;
+    }
+  }
+  
+  // HEADER HOME
+  span.headerHome{
+    background-image: url(/images/headerHome.png);
+    @media screen and (max-width:700px) {
+      background-image: url(/images/headerHomeMobile.png);
+    }
+  }
+  
+
+  // HEADER PROFESIONALES
+  span.headerProfesionales{
+    background-image: url(/images/headerProfesionales.png);
+    @media screen and (max-width:700px) {
+      background-image: url(/images/headerProfesionalesMobile.png);
+    }
+  }
+
+
+    // HEADER SERVICIOS
+    span.headerServicios{
+      background-image: url(/images/headerServicios.png);
+      @media screen and (max-width:700px) {
+        background-image: url(/images/headerServiciosMobile.png);
+      }
+    }
+}
+  

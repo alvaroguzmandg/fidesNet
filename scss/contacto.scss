@@ -1,0 +1,37 @@
+#bloqueContacto{
+  background-color: $fidesBlue;
+  color:white;
+  display: flex;
+  flex-direction: column;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  .contenidoForm{
+    display: flex;
+    flex-direction: column;
+    margin-top:20px;
+    input, textarea{
+      border-radius: 0;
+      border:1px solid white;
+      background-color: #182933;
+      color:white;
+      font-size: 12px;
+    }::placeholder { color: rgba(255,255,255,0.4); }
+    input#suscribir label{
+      font-size: 10px;
+    }
+    span{
+      @media screen and (max-width:700px) {
+        flex-direction: column;
+        gap:20px
+      }
+
+    }
+    button{
+      background-color: $fidesRed;
+      color: white;
+      border:0px;
+      padding:5px 30px;
+    }
+  }
+  
+}
