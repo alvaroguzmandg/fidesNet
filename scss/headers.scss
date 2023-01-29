@@ -42,27 +42,27 @@ section#photoHeader{
   
   // HEADER HOME
   span.headerHome{
-    background-image: url(/images/headerHome.png);
+    background-image: url(../images/headerHome.png);
     @media screen and (max-width:700px) {
-      background-image: url(/images/headerHomeMobile.png);
+      background-image: url(../images/headerHomeMobile.png);
     }
   }
   
 
   // HEADER PROFESIONALES
   span.headerProfesionales{
-    background-image: url(/images/headerProfesionales.png);
+    background-image: url(../images/headerProfesionales.png);
     @media screen and (max-width:700px) {
-      background-image: url(/images/headerProfesionalesMobile.png);
+      background-image: url(../images/headerProfesionalesMobile.png);
     }
   }
 
 
     // HEADER SERVICIOS
     span.headerServicios{
-      background-image: url(/images/headerServicios.png);
+      background-image: url(../images/headerServicios.png);
       @media screen and (max-width:700px) {
-        background-image: url(/images/headerServiciosMobile.png);
+        background-image: url(../images/headerServiciosMobile.png);
       }
     }
 }

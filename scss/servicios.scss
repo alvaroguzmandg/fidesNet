@@ -53,12 +53,12 @@
 }
 
 .accordion-button::after{
-  background-image: url(/images/ic-collapse.png);
+  background-image: url(../images/ic-collapse.png);
   background-size: 50% 50%;
     background-position: center;
 }
 .accordion-button:not(.collapsed)::after{
-  background-image: url(/images/ic-collapsed.png);
+  background-image: url(../images/ic-collapsed.png);
   background-size: 50% 50%;
     background-position: center;
 }
