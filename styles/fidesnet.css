@@ -306,35 +306,35 @@ section#accesoIndustrias {
     background-size: 100% 100%;
     background-position: center; }
   .accesoServicios .accesoServicios--bloque_cont1 {
-    background-image: url(/images/backServicios-1.png); }
+    background-image: url(../images/backServicios-1.png); }
     @media screen and (max-width: 700px) {
       .accesoServicios .accesoServicios--bloque_cont1 {
-        background-image: url(/images/backServicios-1-mobile.png); } }
+        background-image: url(../images/backServicios-1-mobile.png); } }
   .accesoServicios .accesoServicios--bloque_cont2 {
-    background-image: url(/images/backServicios-2.png); }
+    background-image: url(../images/backServicios-2.png); }
     @media screen and (max-width: 700px) {
       .accesoServicios .accesoServicios--bloque_cont2 {
-        background-image: url(/images/backServicios-2-mobile.png); } }
+        background-image: url(../images/backServicios-2-mobile.png); } }
   .accesoServicios .accesoServicios--bloque_cont3 {
-    background-image: url(/images/backServicios-3.png); }
+    background-image: url(../images/backServicios-3.png); }
     @media screen and (max-width: 700px) {
       .accesoServicios .accesoServicios--bloque_cont3 {
-        background-image: url(/images/backServicios-3-mobile.png); } }
+        background-image: url(../images/backServicios-3-mobile.png); } }
   .accesoServicios .accesoServicios--bloque_cont4 {
-    background-image: url(/images/backServicios-4.png); }
+    background-image: url(../images/backServicios-4.png); }
     @media screen and (max-width: 700px) {
       .accesoServicios .accesoServicios--bloque_cont4 {
-        background-image: url(/images/backServicios-4-mobile.png); } }
+        background-image: url(../images/backServicios-4-mobile.png); } }
   .accesoServicios .accesoServicios--bloque_cont5 {
-    background-image: url(/images/backServicios-5.png); }
+    background-image: url(../images/backServicios-5.png); }
     @media screen and (max-width: 700px) {
       .accesoServicios .accesoServicios--bloque_cont5 {
-        background-image: url(/images/backServicios-5-mobile.png); } }
+        background-image: url(../images/backServicios-5-mobile.png); } }
   .accesoServicios .accesoServicios--bloque_cont6 {
-    background-image: url(/images/backServicios-6.png); }
+    background-image: url(../images/backServicios-6.png); }
     @media screen and (max-width: 700px) {
       .accesoServicios .accesoServicios--bloque_cont6 {
-        background-image: url(/images/backServicios-6-mobile.png); } }
+        background-image: url(../images/backServicios-6-mobile.png); } }
 
 #publicacionesDestacadas {
   padding-top: 80px;
