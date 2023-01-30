@@ -56,8 +56,27 @@
     background-color: $backGris;
     padding-top: 10px;
     padding-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .contenidoSlider-bloque-titulo{
+      margin-top:20px;
+      border-top:2px solid $fidesRed;
+      padding-top: 20px;
+      font-size: 12px;
+      width: 70%;
+    }
     img{
       width: 70%;
+    }
+  }
+}
+.carousel-inner.clientes{
+  .carousel-item{
+    .contenidoSlider{
+      .contenidoSlider-bloque{
+        padding-top: 30px;
+      }
     }
   }
 }

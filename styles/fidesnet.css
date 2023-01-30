@@ -639,6 +639,18 @@ section#infoCvProfesional {
   .contenidoSlider .contenidoSlider-bloque {
     background-color: #f6f7fa;
     padding-top: 10px;
-    padding-bottom: 10px; }
+    padding-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+    .contenidoSlider .contenidoSlider-bloque .contenidoSlider-bloque-titulo {
+      margin-top: 20px;
+      border-top: 2px solid #ca2417;
+      padding-top: 20px;
+      font-size: 12px;
+      width: 70%; }
     .contenidoSlider .contenidoSlider-bloque img {
       width: 70%; }
+
+.carousel-inner.clientes .carousel-item .contenidoSlider .contenidoSlider-bloque {
+  padding-top: 30px; }
