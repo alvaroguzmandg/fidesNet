@@ -21,7 +21,7 @@
           <a class="nav-link" href="https://alvaroguzmandg.github.io/fidesNet/servicios">Servicios</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Clientes</a>
+          <a class="nav-link" href="https://alvaroguzmandg.github.io/fidesNet/clientes">Clientes</a>
         </li>
         <li class="nav-item">
           <a class="nav-link">Tendencias</a>
