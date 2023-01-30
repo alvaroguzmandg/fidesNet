@@ -65,5 +65,15 @@ section#photoHeader{
         background-image: url(../images/headerServiciosMobile.png);
       }
     }
+
+
+    // HEADER NOSOTROS
+    span.headerNosotros{
+      font-style: italic;
+      background-image: url(../images/headerNosotros.png);
+      @media screen and (max-width:700px) {
+        background-image: url(../images/headerNosotrosMobile.png);
+      }
+    }    
 }
   

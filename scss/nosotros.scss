@@ -1,0 +1,63 @@
+.contenidoNosotros{
+  background-color: $backGris;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  .contenidoNosotros-bloque{
+    gap:50px;
+    @media screen and (max-width:800px) {
+      flex-direction: column;
+      
+    }
+    .contenidoNosotros-bloque__col{
+      width: 50%;
+      text-align: left;
+      text-align: justify;
+      justify-content: center;
+      @media screen and (max-width:800px){
+        width: 90%;
+        margin:0 auto;
+        text-align: center;
+      }
+      .contenidoNosotros-bloque__titulo{
+        font-weight: 500;
+        letter-spacing: 2px;
+        font-size: 30px;
+      }
+      .contenidoNosotros-bloque__texto{
+        font-size: 14px;
+        line-height: 30px;
+      }
+      img{
+        width: 100%;
+      }
+    }
+  }
+}
+
+.carousel-control-next-icon {
+  background-image: url(/images/ic-flecha-Der.png);
+}
+.carousel-control-prev-icon {
+  background-image: url(/images/ic-flecha-Izq.png);
+}
+.carousel-control-next, .carousel-control-prev{
+  width: 5%;
+}
+.contenidoSlider{
+  display: flex;
+  width: 100%;
+  margin: 0 auto;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 0 auto;
+  justify-content: center;
+  .contenidoSlider-bloque{
+    background-color: $backGris;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    img{
+      width: 70%;
+    }
+  }
+}

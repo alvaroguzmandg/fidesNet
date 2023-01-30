@@ -15,10 +15,10 @@
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav">
         <li class="nav-item">
-          <a class="nav-link" href="../profesionales">Profesionales</a>
+          <a class="nav-link" href="https://alvaroguzmandg.github.io/fidesNet/profesionales">Profesionales</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="../servicios">Servicios</a>
+          <a class="nav-link" href="https://alvaroguzmandg.github.io/fidesNet/servicios">Servicios</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#">Clientes</a>
@@ -27,7 +27,7 @@
           <a class="nav-link">Tendencias</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link">Acerca de</a>
+          <a class="nav-link" href="https://alvaroguzmandg.github.io/fidesNet/nosotros">Acerca de</a>
         </li>
       </ul>
     </div>
