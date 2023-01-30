@@ -619,10 +619,10 @@ section#infoCvProfesional {
         width: 100%; }
 
 .carousel-control-next-icon {
-  background-image: url(/images/ic-flecha-Der.png); }
+  background-image: url(../images/ic-flecha-Der.png); }
 
 .carousel-control-prev-icon {
-  background-image: url(/images/ic-flecha-Izq.png); }
+  background-image: url(../images/ic-flecha-Izq.png); }
 
 .carousel-control-next, .carousel-control-prev {
   width: 5%; }
