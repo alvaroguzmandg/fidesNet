@@ -15,10 +15,10 @@
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav">
         <li class="nav-item">
-          <a class="nav-link" href="/profesionales">Profesionales</a>
+          <a class="nav-link" href="../profesionales">Profesionales</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/servicios">Servicios</a>
+          <a class="nav-link" href="../servicios">Servicios</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#">Clientes</a>
