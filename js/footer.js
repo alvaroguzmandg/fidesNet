@@ -12,7 +12,7 @@
         <span>Dirección:</span> Bartolomé Mitre 777 - 1er Piso - Oficina B CP. C1036AAM<br>
         <span>Email:</span> info@fidesnet.com.ar<br>
         +54 11 4393 1974 / 4328 8408<br>
-        Ciudad de Buenos Aires - Argentina<br>
+        Ciudad Autónoma de Buenos Aires - Argentina<br>
       </span>
     </span>
     <span class="accesoRedes d-flex">

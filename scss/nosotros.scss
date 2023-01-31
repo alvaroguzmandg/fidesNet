@@ -75,7 +75,13 @@
   .carousel-item{
     .contenidoSlider{
       .contenidoSlider-bloque{
-        padding-top: 30px;
+        padding-top: 20px;
+        width: 20%;
+        padding-bottom: 0px;
+      }
+      .contenidoSlider-bloque-titulo{
+        padding-top: 10px;
+        padding-bottom: 10px;
       }
     }
   }
