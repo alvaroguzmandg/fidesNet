@@ -28,7 +28,7 @@
           <ul class="dropdown-menu">
             <li><a class="dropdown-item" href="https://alvaroguzmandg.github.io/fidesNet/tendencias#publicacionesDestacadas">Notas y Artículos</a></li>
             <li><a class="dropdown-item" href="https://alvaroguzmandg.github.io/fidesNet/tendencias/calendario">Calendario</a></li>
-            <li><a class="dropdown-item" href="https://alvaroguzmandg.github.io/fidesNet/tendencias/newsletter">Newsletter</a></li>
+            <li><a class="dropdown-item" href="https://alvaroguzmandg.github.io/fidesNet/tendencias/newsletters">Newsletter</a></li>
           </ul>
 
         </li>

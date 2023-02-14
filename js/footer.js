@@ -23,7 +23,7 @@
     </span>
   </span>
   `
-
+  // 1155768617
 
   bloqueFooter.innerHTML = contenidoFooter
   
