@@ -75,5 +75,34 @@ section#photoHeader{
         background-image: url(../images/headerNosotrosMobile.png);
       }
     }    
-}
-  
+
+    // HEADER TENDENCIAS
+    span.headerTendencias{
+      font-style: italic;
+      background-image: url(../images/headerTendencias.png);
+      @media screen and (max-width:700px) {
+        background-image: url(../images/headerTendenciasMobile.png);
+      }
+    }   
+    
+    // HEADER NOTAS
+    span.headerNotas{
+      font-style: italic;
+      min-height: 150px;
+      background-image: url(../images/headerNotas.png);
+      @media screen and (max-width:700px) {
+        background-image: url(../images/headerNotasMobile.png);
+      }
+    }   
+    
+    // HEADER NEWSLETTERS
+    span.headerNewsletter{
+      min-height: 150px;
+      font-style: italic;
+      background-image: url(../images/headerNewsletter.png);
+      @media screen and (max-width:700px) {
+        background-image: url(../images/headerNewsletterMobile.png);
+      }
+    }       
+
+  }

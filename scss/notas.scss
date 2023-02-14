@@ -2,7 +2,10 @@
   margin-top:30px;
   display: flex;
   gap:30px;
-  @media screen and (max-width:700px) {
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  @media screen and (max-width:600px) {
     flex-direction: column;
   }
   .contenedorNota-bloque{
@@ -12,9 +15,12 @@
     display: flex;
     flex-direction: column;
     align-items: left;
-    padding:50px;
+    padding:30px;
     text-align: left;
-    
+    width: 45%;
+    @media screen and (max-width:600px) {
+      width: 100%;
+    }
     .nota-titulo{
       font-weight: 900;
       font-size: 15px;
@@ -30,11 +36,65 @@
       font-weight: 300;
       text-align: justify;
     }
-    .nota-seguirLeyendo{
+    button.nota-seguirLeyendo{
       color:$fidesRed;
       font-size: 10px;
       font-weight: 600;
       letter-spacing: 1px;
+      border:0px;
+      background-color: white;
+      text-align: left;
     }
+  }
+  
+}
+.contenedorNotas.blogNotas{
+  .contenedorNota-bloque{
+    width: 30%;
+    @media screen and (max-width:800px){
+      width: 40%;
+    }
+    @media screen and (max-width:600px){
+      width: 100%;
+    }
+  }
+}
+
+
+
+.vistaNota{
+  min-height: 200px!important;
+}
+#contenidoNota{
+  .encabezadoNota{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: left;
+    span{
+      display: block;
+    }
+    .encabezdaoNota--copete{
+      font-size: 14px;
+      color:$fidesText;
+      font-weight: 400;
+      padding-bottom: 5px;
+    }
+    h1.encabezdaoNota--titulo{
+      font-size: 30px;
+      line-height: 30px;
+      font-weight: 500;
+      font-style: italic;
+    }
+    .encabezdaoNota--fecha{
+      font-weight: 300;
+    }
+  }
+  .textoNota{
+    padding-top:30px;
+    font-size: 0.9rem;
+    line-height: 30px;
+    text-align: left;
+    color:$fidesText;
+    text-align: justify;
   }
 }

@@ -16,10 +16,10 @@
       </span>
     </span>
     <span class="accesoRedes d-flex">
-      <img src="https://alvaroguzmandg.github.io/fidesNet/images/ic-tw.png" alt="">
-      <img src="https://alvaroguzmandg.github.io/fidesNet/images/ic-in.png" alt="">
-      <img src="https://alvaroguzmandg.github.io/fidesNet/images/ic-yt.png" alt="">
-      <img src="https://alvaroguzmandg.github.io/fidesNet/images/ic-wp.png" alt="">
+      <a href="https://twitter.com/FIDESNET" target="_blank"><img src="https://alvaroguzmandg.github.io/fidesNet/images/ic-tw.png" alt=""></a>
+      <a href="https://www.linkedin.com/company/fidesnet/" target="_blank"><img src="https://alvaroguzmandg.github.io/fidesNet/images/ic-in.png" alt=""></a>
+      <a href="https://www.youtube.com/@FIDESnet" target="_blank"><img src="https://alvaroguzmandg.github.io/fidesNet/images/ic-yt.png" alt=""></a>
+      <a href="" target="_blank"><img src="https://alvaroguzmandg.github.io/fidesNet/images/ic-wp.png" alt=""></a>
     </span>
   </span>
   `

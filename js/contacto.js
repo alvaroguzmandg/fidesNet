@@ -5,7 +5,7 @@
 
   contenidoContacto = 
   `
-  <span class="w90 mw1080 centrado">
+  <span class="w90 mw1080 centrado" data-aos="fade-up" data-aos-duration="1000">
     <span class="titulo">Dejanos tu mensaje</span>
       <span class="contenidoForm w90 mw900 centrado fontTexto">
         <div class="mb-3">

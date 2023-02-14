@@ -1,0 +1,24 @@
+td{
+  padding-top: 10px!important;
+  padding-bottom: 10px!important;
+}
+.tablaFides--separador{
+  display: block;
+  padding-top:10px;
+  padding-bottom: 10px;
+}
+.tablaFides--separador:first-child{
+  border-bottom: 1px solid #dee2e6;
+}
+
+.tituloCalendario{
+  font-size: 30px;
+  @media screen and (max-width:600px) {
+    font-size: 20px;
+    line-height: 30px;
+  }
+}
+
+.contenedor-calendario{
+  padding-bottom: 100px;
+}

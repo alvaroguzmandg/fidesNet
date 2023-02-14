@@ -3,7 +3,7 @@ function perfilZocco(){
   contenidoCV.innerHTML = ''
   contenidoZocco = 
   `
-  <span class="contenidoCV w90 mw900 centrado d-flex">
+  <span class="contenidoCV w90 mw900 centrado d-flex" data-aos="fade-up" data-aos-duration="2000">
     <span class="imagenCV">
       <img src="../images/perfilZocco.png" alt="">
     </span>
@@ -28,7 +28,7 @@ function perfilKores(){
   contenidoCV.innerHTML = ''
   contenidoKores = 
   `
-  <span class="contenidoCV w90 mw900 centrado d-flex">
+  <span class="contenidoCV w90 mw900 centrado d-flex" data-aos="fade-up" data-aos-duration="2000">
     <span class="imagenCV">
       <img src="../images/perfilKores.png" alt="">
     </span>
@@ -65,7 +65,7 @@ function perfilPasquale(){
   contenidoCV.innerHTML = ''
   contenidoPasquale = 
   `
-  <span class="contenidoCV w90 mw900 centrado d-flex">
+  <span class="contenidoCV w90 mw900 centrado d-flex" data-aos="fade-up" data-aos-duration="2000">
     <span class="imagenCV">
       <img src="../images/perfilPasquale.png" alt="">
     </span>
@@ -111,9 +111,9 @@ function perfilCapellades(){
   contenidoCV.innerHTML = ''
   contenidoCapellades = 
   `
-  <span class="contenidoCV w90 mw900 centrado d-flex">
+  <span class="contenidoCV w90 mw900 centrado d-flex" data-aos="fade-up" data-aos-duration="2000">
     <span class="imagenCV">
-      <img src="../images/perfilAgustina.png" alt="">
+      <img src="../images/perfilAgustina2.png" alt="">
     </span>
     <span class="infoCV">
       <span class="cvNombre fontTitulo">M. Agustina Capellades</span>

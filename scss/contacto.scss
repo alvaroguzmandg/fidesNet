@@ -31,6 +31,13 @@
       color: white;
       border:0px;
       padding:5px 30px;
+      border:1px solid $fidesRed;
+      transition: 0.3s;
+      &:hover{
+        border:1px solid white;
+        background-color: white;
+        color:$fidesRed;
+      }
     }
   }
   
