@@ -229,6 +229,11 @@ section#photoHeader {
     @media screen and (max-width: 700px) {
       section#photoHeader span.headerServicios {
         background-image: url(../images/headerServiciosMobile.png); } }
+  section#photoHeader span.headerClientes {
+    background-image: url(../images/headerClientes.png); }
+    @media screen and (max-width: 700px) {
+      section#photoHeader span.headerClientes {
+        background-image: url(../images/headerClientesMobile.png); } }
   section#photoHeader span.headerNosotros {
     font-style: italic;
     background-image: url(../images/headerNosotros.png); }
