@@ -23,8 +23,14 @@
         <li class="nav-item">
           <a class="nav-link" href="https://alvaroguzmandg.github.io/fidesNet/clientes">Clientes</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="https://alvaroguzmandg.github.io/fidesNet/tendencias">Tendencias</a>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false" href="https://alvaroguzmandg.github.io/fidesNet/tendencias">Tendencias</a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="https://alvaroguzmandg.github.io/fidesNet/tendencias#publicacionesDestacadas">Notas y Artículos</a></li>
+            <li><a class="dropdown-item" href="https://alvaroguzmandg.github.io/fidesNet/tendencias/calendario">Calendario</a></li>
+            <li><a class="dropdown-item" href="https://alvaroguzmandg.github.io/fidesNet/tendencias/newsletter">Newsletter</a></li>
+          </ul>
+
         </li>
         <li class="nav-item">
           <a class="nav-link" href="https://alvaroguzmandg.github.io/fidesNet/nosotros">Acerca de</a>
