@@ -20,6 +20,11 @@
   .news-bloque--info{
     width: 45%;
     text-align: left;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+    gap:20px;
     @media screen and (max-width:600px){
       width: 100%;
     }
@@ -28,7 +33,7 @@
     }
     .news-bloque--info--fecha{
       font-size: 30px;
-      font-weight: 400;
+      font-weight: 700;
       text-transform: uppercase;
     }
     .news-bloque--info--titulo{

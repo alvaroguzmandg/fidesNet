@@ -61,8 +61,8 @@ function mostrarNews(listadoNews) {
         </span>
         <span class="news-bloque--info">
           <span class="news-bloque--info--fecha fontTitulo colorDestacado">${listadoNews.fecha}</span>
-          <span class="news-bloque--info--titulo fontTexto">${listadoNews.titulo}</span>
-          <span class="news-bloque--info--descripcion fontTexto">${listadoNews.descripcion}</span>
+          <!--<span class="news-bloque--info--titulo fontTexto">${listadoNews.titulo}</span>-->
+          <!--<span class="news-bloque--info--descripcion fontTexto">${listadoNews.descripcion}</span>-->
           <span class="news-bloque-links fontTexto colorDestacado">
             <a href="files/${listadoNews.file}" target="_blank">
               <button class="news-bloque-links-icono"><img src="../../images/ic-ver.png" alt="Icono Ver"></button> 
