@@ -329,7 +329,29 @@
   </section>
 
   <section id="bloqueContacto">
+    <span class="w90 mw1080 centrado" data-aos="fade-up" data-aos-duration="1000">
+      <span class="titulo">Dejanos tu mensaje</span>
+        <span class="contenidoForm w90 mw900 centrado fontTexto">
+          <div class="mb-3">
+              <form method="GET" action="https://app.embluemail.com/Online/TriggerUrlExterna.aspx" onsubmit="return validateForm();" novalidate="">
+                  <input type="hidden" name="key" value="deb9534c-2d27-4042-adf0-8db58432d3c2">
+                  <input class="form-control" id="email" type="email" placeholder="miemail@miemail.com" name="email" required="" data-error="Campo requerido|Formato inválido">
+          </div>
+          <div class="mb-3" id="campo-1498318">
+            <input id="1498318" type="text" name="1498318" class="form-control" rows="3" placeholder="Dejanos tu mensaje">
+          </div>
+          <span class="d-flex align-items-center justify-content-between">
+            <span>
+              <input type="checkbox" name="recibir" id="suscribir" value="Quiero suscribirme al newsletter">
+              <label>Quiero suscribirme al newsletter</label>
+            </span>
+            <button type="submit" type="submit" datos="" value="">ENVIAR</button>
+            </form>
+          </span>
+        </span>
+    </span>
   </section>
+  <script type="text/javascript" src="https://app.embluemail.com/emblue/form_validation.js"></script>
 
 
 
@@ -339,7 +361,7 @@
     <script src="" async defer></script>
     <script src="../js/menu.js"></script>
     <script src="../js/profesionales.js"></script>
-    <script src="../js/contacto.js"></script>
+    <!-- <script src="../js/contacto.js"></script> -->
     <script src="../js/footer.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
