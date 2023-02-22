@@ -231,10 +231,10 @@ section#photoHeader {
       section#photoHeader .contenidoEncabezado {
         width: 90%; } }
   section#photoHeader span.headerHome {
-    background-image: url(../images/headerHome.png); }
+    background-image: url(../images/headerHome2.png); }
     @media screen and (max-width: 700px) {
       section#photoHeader span.headerHome {
-        background-image: url(../images/headerHomeMobile.png); } }
+        background-image: url(../images/headerHomeMobile2.png); } }
   section#photoHeader span.headerProfesionales {
     background-image: url(../images/headerProfesionales.png); }
     @media screen and (max-width: 700px) {
