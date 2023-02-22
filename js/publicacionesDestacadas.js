@@ -4,20 +4,21 @@
 
 
   contenidoPublicaciones = 
-  `<span class="contenedorNotas centrado w90 mw900 fontTexto">
-  <span class="contenedorNota-bloque" data-aos="fade-up" data-aos-duration="1500">
-    <span class="nota-titulo">BILLETERAS DIGITALES: NUEVA REGULACIÓN
-      DEL BCRA PARA PREVENIR LOS FRAUDES</span>
-    <span class="nota-anticipo">El pasado 24 de febrero el Banco Central de la República Argentina (BCRA) emitió la Com. A 7463 en la que establece un conjunto de reglas para fortalecer el nivel... </span>
-    <button type="button" onclick="location.href='https://alvaroguzmandg.github.io/fidesNet/notas/03_11-billeteras-digitales-nueva-regulación-del-bcra-para-prevenir-los-fraudes.html'" class="nota-seguirLeyendo"> >seguir Leyendo</button>
-  </span>
+  `
+  <span class="contenedorNotas centrado w90 mw900 fontTexto">
+    <span class="contenedorNota-bloque" data-aos="fade-up" data-aos-duration="1500">
+      <span class="nota-titulo">Sistema ingregral de prevención del lavado de activos - SIPLA</span>
+      <span class="nota-anticipo">Esta columna analiza la emisión de la Resolución No. 808/2022 por parte de la SSN, que implementa en el ámbito de las entidades aseguradoras y reaseguradoras el “Sistema Integral de Prevención del Lavado de Activos”, conocido por sus siglas como SIPLA. [...]</span>
+      <button type="button" onclick="location.href='https://alvaroguzmandg.github.io/fidesNet/notas/2023/01_03-sistema-integral-de-prevencion-del-lavado-de-activos-sipla.html'" class="nota-seguirLeyendo"> >seguir Leyendo</button>
+    </span>
 
-  <span class="contenedorNota-bloque" data-aos="fade-up" data-aos-duration="1500">
-    <span class="nota-titulo">¿SE DEBERÍA FORMALIZAR UN PLAN DE IMPLEMENTACIÓN DE LA RESOLUCIÓN UIF Nº 112/2021?</span>
-    <span class="nota-anticipo">En una nota anterior de mi autoría, publicada con fecha 28.10.2021*, hacía un análisis respecto de los principales aspectos derivados de la emisión... </span>
-    <button type="button" onclick="location.href='https://alvaroguzmandg.github.io/fidesNet/notas/2022/02_25-se-deberia-formalizar-un-plan-de-implementacion-de-la-resolucion-uif-no-112-2021.html'" class="nota-seguirLeyendo"> >seguir Leyendo</button>
+    <span class="contenedorNota-bloque" data-aos="fade-up" data-aos-duration="1500">
+      <span class="nota-titulo">Feedback sobre matrices de Autoevaluacion de Riesgos de LA/FT</span>
+      <span class="nota-anticipo">Esta columna analiza el feedback difundido por la UIF en el documento denominado "Formación UIF 2022 – Análisis de los Informes Técnicos de Autoevaluaciones de Riesgos de los Sujetos Obligados", emitido como resultado de las Jornadas de Retroalimentación [...]</span>
+      <button type="button" onclick="location.href='https://alvaroguzmandg.github.io/fidesNet/notas/2022/11_15-feedback-sobre-matrices-de-autoevaluacion-de-riesgos-de-LA-FT.html'" class="nota-seguirLeyendo"> >seguir Leyendo</button>
+    </span>
   </span>
-</span>`
+  `
 
 
   publicacionesDestacadas.innerHTML += contenidoPublicaciones
