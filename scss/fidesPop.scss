@@ -1,0 +1,73 @@
+#fidesPop{
+  margin: 0 auto;
+  background-color: #f6f7fa;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  gap:20px;
+  text-align: center;
+  img{
+    width: 100%;
+  }
+  .tituloModal{
+    text-align: center;
+    font-weight: 900;
+    font-size: 20px;
+    .tituloModal-sub{
+      display: block;
+      width: 70%;
+      margin:0 auto;
+      font-weight: 500;
+      color:$fidesText;
+      font-size: 16px;
+      line-height: 20px;
+
+    }
+
+  }
+  .datos{
+    font-weight: 800;
+  }
+}
+
+.topHeader{
+  display: block;
+  background-color: $fidesBlue;
+  width: 100%;
+  color:white;
+  display: flex;
+  flex-direction: row;
+  gap:20px;
+  justify-content: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  align-items: center;
+  .textoTopHeader{
+    font-weight: 900;
+  }
+  .botonheader{
+    background-color: $fidesRed;
+    padding:3px 10px;
+  }
+  @media screen and (max-width:600px) {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    flex-direction: column;
+    text-align: center;
+    gap:5px;
+    .textoTopHeader{
+      width: 90%;
+      display: block;
+      text-transform: uppercase;
+    }
+  }
+}
+
+div#exampleModal {
+  top: 20%;
+  @media screen and (max-width:600px) {
+    top:30%;
+  }
+}

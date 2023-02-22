@@ -912,3 +912,65 @@ td {
 
 tbody, table {
   text-align: center; }
+
+#fidesPop {
+  margin: 0 auto;
+  background-color: #f6f7fa;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  gap: 20px;
+  text-align: center; }
+  #fidesPop img {
+    width: 100%; }
+  #fidesPop .tituloModal {
+    text-align: center;
+    font-weight: 900;
+    font-size: 20px; }
+    #fidesPop .tituloModal .tituloModal-sub {
+      display: block;
+      width: 70%;
+      margin: 0 auto;
+      font-weight: 500;
+      color: #444444;
+      font-size: 16px;
+      line-height: 20px; }
+  #fidesPop .datos {
+    font-weight: 800; }
+
+.topHeader {
+  display: block;
+  background-color: #161b27;
+  width: 100%;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  justify-content: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  align-items: center; }
+  .topHeader .textoTopHeader {
+    font-weight: 900; }
+  .topHeader .botonheader {
+    background-color: #ca2417;
+    padding: 3px 10px; }
+  @media screen and (max-width: 600px) {
+    .topHeader {
+      padding-top: 10px;
+      padding-bottom: 10px;
+      flex-direction: column;
+      text-align: center;
+      gap: 5px; }
+      .topHeader .textoTopHeader {
+        width: 90%;
+        display: block;
+        text-transform: uppercase; } }
+
+div#exampleModal {
+  top: 20%; }
+  @media screen and (max-width: 600px) {
+    div#exampleModal {
+      top: 30%; } }

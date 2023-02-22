@@ -7,14 +7,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://alvaroguzmandg.github.io/fidesNet/styles/fidesnet.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,500&family=Open+Sans:ital,wght@0,300;0,400;0,800;1,600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://alvaroguzmandg.github.io/fidesNet/styles/fidesnet.css">
+    <!-- <link rel="stylesheet" href="/styles/fidesnet.css"> -->
   </head>
   <body>
+    <span id="popHeader" class="topHeader">
+      <span class="textoTopHeader">Evento Forum 22/03/2023 - "SEMINARIO TÉCNICO INTENSIVO"</span>
+      <span class="botonheader" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">
+        Ver más información
+      </span>
+      <span type="button" onclick="popHeader()">x</span>
+    </span>
     <header id="menuHeader" class="centrado fontTexto">
-      
+
     </header>
 
     <section id="photoHeader">
@@ -185,6 +193,43 @@ input[type="submit"] {
     </section>
 
 
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <div id="fidesPop">
+              <span id="cerrarModal" class="btn-cerrar"><i class="fa-sharp fa-solid fa-xmark"></i></span>
+              <img src="https://www.forosyconferencias.com.ar/imagenes/eventos/principal_jZjv8rroUIC83sMV.jpg" alt="">
+              <span class="tituloModal colorDestacado fontTitulo">
+                SEMINARIO TÉCNICO INTENSIVO 
+                <span class="tituloModal-sub">
+                  NUEVA RESOLUCION UIF 14/2023 PARA ENTIDADES FINANCIERAS Y CAMBIARIAS
+                </span>
+              </span>
+
+              <span class="datos fontTexto">
+                Fecha: <span class="colorDestacado"> Marzo 2023</span>  - Horario: 09:00 a 14:00 Hs<br>
+                Modalidad: <span class="colorDestacado">Presencial & Online</span>
+              </span>
+              <a class="botonFides fontTexto" type="button" href="https://www.forosyconferencias.com.ar/evento/Resolucion_UIF_14_2023" target="_blank">CONOCÉ MÁS</a>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+    
+
+
+
+<script>
+
+</script>
+
+
 
     <footer id="bloqueFooter">
     </footer>
@@ -198,5 +243,11 @@ input[type="submit"] {
     </script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
     <script type="text/javascript" src="https://app.embluemail.com/emblue/form_validation.js"></script>
+    <script src="https://kit.fontawesome.com/40c5a76473.js" crossorigin="anonymous"></script>
+    <script>
+      function popHeader(){
+        document.getElementById("popHeader").style.display ="none"
+      }
+    </script>
   </body>
 </html>
