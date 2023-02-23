@@ -950,9 +950,10 @@ tbody, table {
   justify-content: center;
   padding-top: 10px;
   padding-bottom: 10px;
-  align-items: center; }
+  align-items: center;
+  font-size: 12px; }
   .topHeader .textoTopHeader {
-    font-weight: 900; }
+    font-weight: 500; }
   .topHeader .botonheader {
     background-color: #ca2417;
     padding: 3px 10px; }
