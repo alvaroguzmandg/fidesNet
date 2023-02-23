@@ -81,7 +81,7 @@
       <button class="botonFides fontTexto" type="button" onclick="location.href='https://alvaroguzmandg.github.io/fidesNet/notas'">VER MÁS</button>
     </section>
     
-    <section id="bloqueContacto">
+    <!-- <section id="bloqueContacto">
       <span class="w90 mw1080 centrado" data-aos="fade-up" data-aos-duration="1000">
         <span class="titulo">Dejanos tu mensaje</span>
           <span class="contenidoForm w90 mw900 centrado fontTexto">
@@ -103,10 +103,45 @@
             </span>
           </span>
       </span>
-    </section>
-    <script type="text/javascript" src="https://app.embluemail.com/emblue/form_validation.js"></script>
+    </section> -->
+    <!-- <script type="text/javascript" src="https://app.embluemail.com/emblue/form_validation.js"></script> -->
     
+
+    <section id="bloqueContacto">
+      <span class="w90 mw1080 centrado" data-aos="fade-up" data-aos-duration="1000">
+        <span id="form-contacto">
+          <span class="titulo">Dejanos tu mensaje</span>
+          <span class="contenidoForm w90 mw900 centrado fontTexto">
+            <div class="mb-3">
+            <form action="" id="contactForm">
+                <input class="form-control" id="emailid" type="email" placeholder="Ingresá tu correo electrónico" name="email" required>
+            </div>
+            <div class="mb-3" id="campo-1498318">
+              <input id="messageid" type="text" name="1498318" class="form-control" rows="3" placeholder="Dejanos tu mensaje">
+            </div>
+            <span class="d-flex align-items-center justify-content-between">
+              <span>
+                <input type="checkbox" name="recibir" id="suscribir" value="Quiero suscribirme al newsletter">
+                <label>Quiero suscribirme al newsletter</label>
+              </span>
+              <button  type="submit" >ENVIAR</button>
+              </form>
+            </span>
+          </span>
+        </span>
+          <div id="registroGracias">
+            <span class="titulo">¡Gracias por registrarte!</span>
+        </div>
+      </span>
+    </section>
   
+    <style>
+      #registroGracias{
+        display: none;
+      }
+    </style>
+
+
 
 
     <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -165,5 +200,7 @@
         document.getElementById("popHeader").style.display ="none"
       }
     </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/7.14.1-0/firebase.js"></script>
+    <script src="js/fidesBD.js"></script>
   </body>
 </html>

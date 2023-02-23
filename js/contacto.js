@@ -4,7 +4,7 @@
 
 
   contenidoContacto = 
-  `
+  `<!--
   <span class="w90 mw1080 centrado" data-aos="fade-up" data-aos-duration="1000">
   <span class="titulo">Dejanos tu mensaje</span>
     <span class="contenidoForm w90 mw900 centrado fontTexto">
@@ -27,6 +27,8 @@
     </span>
 </span>
 <script type="text/javascript" src="https://app.embluemail.com/emblue/form_validation.js"></script>
+-->
+
   `
 
 
