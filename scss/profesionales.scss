@@ -1,10 +1,12 @@
 section.bloqueProfesionales{
   gap:10px;
+  row-gap: 30px;
   @media screen and (max-width:900px){
     flex-wrap: wrap;
     row-gap: 30px;
   }
     .accesoProfesional{
+      width: 23%;
       @media screen and (max-width:900px){
         width: 48%;
       }

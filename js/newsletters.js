@@ -57,7 +57,7 @@ function mostrarNews(listadoNews) {
       newsBloque.classList.add("news-bloque");
       htmlString = `
         <span class="news-bloque--image">
-          <img src="../../images/newslettersBack-${listadoNews.id}.png" alt="">
+          <img src="../../images/newslettersBack-${listadoNews.id}.png" alt="Imagen background newsletter">
         </span>
         <span class="news-bloque--info">
           <span class="news-bloque--info--fecha fontTitulo colorDestacado">${listadoNews.fecha}</span>

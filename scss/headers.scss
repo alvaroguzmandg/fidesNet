@@ -1,116 +1,125 @@
-section#photoHeader{
-  text-align: center;
-  span{
-    min-height: 300px;
-    display: flex;
+section#photoHeader {
     text-align: center;
-    align-items: flex-end;
-    justify-content: center;
-    background-size: cover;
-    background-position: center;
-    color:white;
-    padding-bottom: 20px;
-    p{
-      width: 100%;
-      font-size: 28px;
-      line-height: 35px;
+    span {
+        min-height: 300px;
+        display: flex;
+        text-align: center;
+        align-items: flex-end;
+        justify-content: center;
+        background-size: cover;
+        background-position: center;
+        color: white;
+        padding-bottom: 20px;
+        p,
+        h1 {
+            width: 100%;
+            font-size: 28px;
+            line-height: 35px;
+        }
+        @media screen and (max-width:900px) {
+            p,
+            h1 {
+                width: 90%;
+                font-size: 30px;
+                letter-spacing: 0.2px;
+                line-height: 35px;
+                @media screen and (max-width: 600px) {
+                    font-size: 20px;
+                    br {
+                        display: none;
+                    }
+                }
+            }
+        }
+        @media screen and (max-width:700px) {
+            min-height: 400px;
+        }
     }
-    @media screen and (max-width:900px) {
-      p{
-        width: 90%;
-        font-size: 30px;
-        letter-spacing: 0.2px;
-        line-height: 35px;
-      }
+    //ESTILOS CONTENIDO
+    .contenidoEncabezado,
+    .contenidoEncabezado h3,
+    .contenidoEncabezado h2 {
+        margin-top: 70px;
+        font-size: 16px;
+        line-height: 30px;
+        font-weight: 400;
+        letter-spacing: 0.5px;
+        @media screen and (max-width: 700px) {
+            width: 90%;
+        }
     }
-    @media screen and (max-width:700px) {
-      min-height: 400px;
+    // HEADER HOME
+    span.headerHome {
+        background-image: url(../images/headerHome2.png);
+        @media screen and (max-width: 700px) {
+            background-image: url(../images/headerHomeMobile2.png);
+        }
     }
-  }
-  
-  //ESTILOS CONTENIDO
-  .contenidoEncabezado{
-    margin-top: 70px;
-    font-size: 16px;
-    line-height: 30px;
-    font-weight: 400;
-    letter-spacing: 0.5px;
-    @media screen and (max-width:700px) {
-      width: 90%;
+    // HEADER PROFESIONALES
+    span.headerProfesionales {
+        background-image: url(../images/headerProfesionales.png);
+        @media screen and (max-width: 700px) {
+            background-image: url(../images/headerProfesionalesMobile.png);
+        }
     }
-  }
-  
-  // HEADER HOME
-  span.headerHome{
-    background-image: url(../images/headerHome2.png);
-    @media screen and (max-width:700px) {
-      background-image: url(../images/headerHomeMobile2.png);
-    }
-  }
-  
-
-  // HEADER PROFESIONALES
-  span.headerProfesionales{
-    background-image: url(../images/headerProfesionales.png);
-    @media screen and (max-width:700px) {
-      background-image: url(../images/headerProfesionalesMobile.png);
-    }
-  }
-
-
     // HEADER SERVICIOS
-    span.headerServicios{
-      background-image: url(../images/headerServicios.png);
-      @media screen and (max-width:700px) {
-        background-image: url(../images/headerServiciosMobile.png);
-      }
+    span.headerContacto {
+        background-image: url(../images/headerContacto.png);
+        background-size: cover;
+        // background-position: bottom;
+        min-height: 500px;
+        @media screen and (max-width: 750px) {
+            background-size: 100% auto;
+            min-height: 300px;
+            background-image: url(../images/headerContacto-mobile.png);
+        }
     }
-
+    // HEADER SERVICIOS
+    span.headerServicios {
+        background-image: url(../images/headerServicios.png);
+        @media screen and (max-width: 700px) {
+            background-image: url(../images/headerServiciosMobile.png);
+        }
+    }
     // HEADER CLIENTES
-    span.headerClientes{
-      background-image: url(../images/headerClientes.png);
-      @media screen and (max-width:700px) {
-        background-image: url(../images/headerClientesMobile.png);
-      }
-    }    
-
-
+    span.headerClientes {
+        background-image: url(../images/headerClientes.png);
+        @media screen and (max-width: 700px) {
+            background-image: url(../images/headerClientesMobile.png);
+        }
+    }
     // HEADER NOSOTROS
-    span.headerNosotros{
-      font-style: italic;
-      background-image: url(../images/headerNosotros.png);
-      @media screen and (max-width:700px) {
-        background-image: url(../images/headerNosotrosMobile.png);
-      }
-    }    
-
+    span.headerNosotros {
+        font-style: italic;
+        background-image: url(../images/headerNosotros.png);
+        @media screen and (max-width: 700px) {
+            background-image: url(../images/headerNosotrosMobile.png);
+        }
+    }
     // HEADER TENDENCIAS
-    span.headerTendencias{
-      font-style: italic;
-      background-image: url(../images/headerTendencias.png);
-      @media screen and (max-width:700px) {
-        background-image: url(../images/headerTendenciasMobile.png);
-      }
-    }   
-    
+    span.headerTendencias {
+        font-style: italic;
+        background-image: url(../images/headerTendencias.png);
+        @media screen and (max-width: 700px) {
+            background-image: url(../images/headerTendenciasMobile.png);
+        }
+    }
     // HEADER NOTAS
-    span.headerNotas{
-      font-style: italic;
-      min-height: 150px;
-      background-image: url(../images/headerNotas.png);
-      @media screen and (max-width:700px) {
-        background-image: url(../images/headerNotasMobile.png);
-      }
-    }   
-    
+    span.headerNotas {
+        font-style: italic;
+        min-height: 150px;
+        background-image: url(../images/headerNotas.png);
+        @media screen and (max-width: 700px) {
+            background-image: url(../images/headerNotasMobile.png);
+        }
+    }
     // HEADER NEWSLETTERS
-    span.headerNewsletter{
-      min-height: 150px;
-      font-style: italic;
-      background-image: url(../images/headerNewsletter.png);
-      @media screen and (max-width:700px) {
-        background-image: url(../images/headerNewsletterMobile.png);
-      }
-    }       
-
-  }
+    span.headerNewsletter {
+        min-height: 150px;
+        font-style: italic;
+        background-image: url(../images/headerNewsletter.png);
+        @media screen and (max-width: 700px) {
+            background-image: url(../images/headerNewsletterMobile.png);
+        }
+    }
+}

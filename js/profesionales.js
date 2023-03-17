@@ -5,7 +5,7 @@ function perfilZocco(){
   `
   <span class="contenidoCV w90 mw900 centrado d-flex" data-aos="fade-up" data-aos-duration="2000">
     <span class="imagenCV">
-      <img src="../images/perfilZocco.png" alt="">
+      <img src="../images/profesionales/perfilZocco.png" alt="Imagen de Perfil Guillermo Zocco - FIDESnet">
     </span>
     <span class="infoCV">
       <span class="cvTitulo fontTitulo">Magister</span>
@@ -30,7 +30,7 @@ function perfilKores(){
   `
   <span class="contenidoCV w90 mw900 centrado d-flex" data-aos="fade-up" data-aos-duration="2000">
     <span class="imagenCV">
-      <img src="../images/perfilKores.png" alt="">
+      <img src="../images/profesionales/perfilKores.png" alt="Imagen de Perfil Andrés Kores - FIDESnet">
     </span>
     <span class="infoCV">
       <span class="cvTitulo fontTitulo">Magister</span>
@@ -67,7 +67,7 @@ function perfilPasquale(){
   `
   <span class="contenidoCV w90 mw900 centrado d-flex" data-aos="fade-up" data-aos-duration="2000">
     <span class="imagenCV">
-      <img src="../images/perfilPasquale.png" alt="">
+      <img src="../images/profesionales/perfilDiPasquale.png" alt="Imagen de Perfil Fernando DI Pasquale - FIDESnet">
     </span>
     <span class="infoCV">
       <span class="cvTitulo fontTitulo">Magister</span>
@@ -113,7 +113,7 @@ function perfilCapellades(){
   `
   <span class="contenidoCV w90 mw900 centrado d-flex" data-aos="fade-up" data-aos-duration="2000">
     <span class="imagenCV">
-      <img src="../images/perfilAgustina2.png" alt="">
+      <img src="../images/profesionales/perfilCapellades.png" alt="Imagen de Perfil Agustina Capellades - FIDESnet">
     </span>
     <span class="infoCV">
       <span class="cvNombre fontTitulo">M. Agustina Capellades</span>
@@ -137,4 +137,61 @@ function perfilCapellades(){
   </span>
 `
   contenidoCV.innerHTML = contenidoCapellades
+}
+
+
+function perfilGala(){
+  let contenidoCV = document.getElementById("infoCvProfesional")
+  contenidoCV.innerHTML = ''
+  contenidoGala = 
+  `
+  <span class="contenidoCV w90 mw900 centrado d-flex" data-aos="fade-up" data-aos-duration="2000">
+    <span class="imagenCV">
+      <img src="../images/profesionales/perfilGala.png" alt="Imagen de Perfil Gala Aspeleiter Sitzerman - FIDESnet">
+    </span>
+    <span class="infoCV">
+      <span class="cvNombre fontTitulo">Gala Aspeleiter Sitzerman</span>
+      <span class="cvCargo">ABOGADA</span>
+      <span class="accesoPerfilId"></span>
+      <span class="textoCV pb-5">
+      Es Abogada, especialista en Derecho Económico -Empresarial, graduada en la Universidad de Buenos Aires (UBA). 
+      <br><br>
+      Cuenta con una Diplomatura en Prevención de Crímenes Financieros por el IAE Business School de la Universidad Austral y un Posgrado en Prevención de Lavado de Activos y Financiamiento del Terrorismo en la Universidad de Buenos Aires.   
+      <br><br>
+      Actualmente se desempeña como abogada especialista en prevención del Lavado de activos y financiamiento del terrorismo en FIDESnet – Professional Advisory y ha trabajado en Entidades del Sector Bancario y Mercado de Capitales en Argentina y Fintech para LATAM. Ha desarrollado tareas relacionadas al asesoramiento, revisión, desarrollo e implementación de medidas de control y gestión de riesgos en materia de Prevención del Fraude, Corrupción, Ciberdelitos, Lavado de Activos y Financiamiento del Terrorismo. 
+      <br><br>
+      En el ámbito académico, ha participado de numerosos eventos, seminarios, conferencias locales e internacionales. Forma parte de su desarrollo también, diversos programas de Compliance, Prevención del Lavado de Activos y Financiamiento del Terrorismo en la UBA, CPACF, ACFE Capitulo Argentina, entre otros. 
+
+      </span>
+    </span>
+  </span>
+`
+  contenidoCV.innerHTML = contenidoGala
+}
+
+function perfilGesino(){
+  let contenidoCV = document.getElementById("infoCvProfesional")
+  contenidoCV.innerHTML = ''
+  contenidoGala = 
+  `
+  <span class="contenidoCV w90 mw900 centrado d-flex" data-aos="fade-up" data-aos-duration="2000">
+    <span class="imagenCV">
+      <img src="../images/profesionales/perfilGesino.png" alt="Imagen de Perfil Mercedes Gesino - FIDESnet">
+    </span>
+    <span class="infoCV">
+      <span class="cvNombre fontTitulo">Mercedes Gesino</span>
+      <span class="cvCargo">ABOGADA</span>
+      <span class="accesoPerfilId"></span>
+      <span class="textoCV pb-5">
+      Es Abogada, especialista en Derecho Penal, graduada en la Universidad de Buenos Aires (UBA). 
+      <br><br>
+      Realizo un Master en Derecho Penal en la Universidad Autónoma de Madrid (UAM). Posee una certificación en Criptomonedas & Fintech.   
+      <br><br>
+      Actualmente se desempeña como abogada especialista en Prevención del Lavado de Activos y Financiamiento del Terrorismo en FIDESnet – Professional Advisory, desarrollando tareas relacionadas al asesoramiento, revisión, desarrollo e implementación de medidas de control y gestión de riesgos en materia de Prevención del Fraude, Corrupción, Ciberdelitos, Lavado de Activos y Financiamiento del Terrorismo. 
+
+      </span>
+    </span>
+  </span>
+`
+  contenidoCV.innerHTML = contenidoGala
 }
